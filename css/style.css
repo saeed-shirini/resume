@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+.mynav{
+	border-bottom:3px solid #0a77f5;
+}
+.header{
+	background:linear-gradient(to bottom,transparent,rgba(0,0,0,0.9)),url("../images/home.jpg") no-repeat center center fixed;
+	background-size: cover;
+	padding-bottom:20px;
+	
+}
+.form-check .fo{
+    background-color: white;
+	color: dodgerblue;
+    padding: 8px;
+	border-radius: 5px;
+	font-size: 18px;
+	
+}
+.back{
+	width:50px;
+	height:50px;
+	position:fixed;
+    bottom:2px;
+	right:4px;
+	display:none;
+	z-index: 99;
+}
+
